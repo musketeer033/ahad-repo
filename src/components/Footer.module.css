@@ -1,0 +1,45 @@
+.footer {
+  background: #111a27;
+  padding: 2rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.logoText {
+  font-weight: 700;
+  color: var(--color-white);
+  font-family: var(--font-primary);
+}
+
+.copy {
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.4);
+  font-family: var(--font-secondary);
+}
+
+.tagline {
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.35);
+  font-family: var(--font-secondary);
+}
+
+@media (max-width: 640px) {
+  .inner {
+    flex-direction: column;
+    text-align: center;
+  }
+}
