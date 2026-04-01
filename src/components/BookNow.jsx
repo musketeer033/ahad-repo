@@ -66,7 +66,28 @@ function BookNow() {
 
             <div className={styles.orDivider}>
               <span className={styles.orLine}></span>
-              <span className={styles.orText}>or find us on</span>
+              <span className={styles.orText}>or reach us on</span>
+              <span className={styles.orLine}></span>
+            </div>
+
+            <a
+              href="https://wa.me/919111266793?text=Hi!%20I%20am%20interested%20in%20booking%20a%20cupping%20therapy%20session."
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.whatsappBtn}
+              id="whatsapp-btn"
+              aria-label="Chat on WhatsApp"
+            >
+              <span className={styles.whatsappIcon}>💬</span>
+              <div className={styles.whatsappText}>
+                <span className={styles.whatsappLabel}>Chat on WhatsApp</span>
+                <span className={styles.whatsappNumber}>+91 91112 66793</span>
+              </div>
+            </a>
+
+            <div className={styles.orDivider}>
+              <span className={styles.orLine}></span>
+              <span className={styles.orText}>or follow us on</span>
               <span className={styles.orLine}></span>
             </div>
 
