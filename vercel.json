@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "https://cuppingathome.in/:path*",
+      "destination": "https://www.cuppingathome.in/:path*",
+      "permanent": true
+    }
+  ]
+}
