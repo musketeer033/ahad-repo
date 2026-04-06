@@ -1,7 +1,13 @@
 {
   "redirects": [
     {
-      "source": "https://cuppingathome.in/:path*",
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "cuppingathome.in"
+        }
+      ],
       "destination": "https://www.cuppingathome.in/:path*",
       "permanent": true
     }
